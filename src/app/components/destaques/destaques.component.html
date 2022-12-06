@@ -1,0 +1,43 @@
+<section id="features" class="my-5">
+  <div class="container">
+    <h1 class="text-center mb-4">Destaques</h1>
+    <div class="row">
+      <div class="col features text-center">
+        <img src="./assets/images/feature1.png" alt="" />
+        <div class="text-center">
+          <h4 [innerHTML]="featureData.feature1.title"></h4>
+          <p>
+            {{featureData.feature1.text}}
+          </p>
+        </div>
+      </div>
+      <div class="col features text-center">
+        <img src="./assets/images/feature2.png" alt="" />
+        <div class="text-center">
+          <h4 [innerHTML]="featureData.feature2.title"></h4>
+          <p>
+            {{featureData.feature2.text}}
+          </p>
+        </div>
+      </div>
+      <div class="col features text-center">
+        <img src="./assets/images/feature3.png" alt="" />
+        <div class="text-center">
+          <h4 [innerHTML]="featureData.feature3.title"></h4>
+          <p>
+            {{featureData.feature3.text}}
+          </p>
+        </div>
+      </div>
+      <div class="col features text-center">
+        <img src="./assets/images/feature4.png" alt="" />
+        <div class="text-center">
+          <h4 [innerHTML]="featureData.feature4.title">4</h4>
+          <p>
+            {{featureData.feature4.text}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
